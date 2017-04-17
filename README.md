@@ -47,28 +47,28 @@ Once you install Package Control, restart Sublime Text and bring up the Command 
 To Use
 ======
 
-###Adding Bookmarks###
+### Adding Bookmarks ###
 
 Go to a line you wish to bookmark. Press ```ctrl + shift + P``` on Windows / Linux or ```cmd + shift + P``` on Mac and type ```SublimeBookmarks:Add Bookmark```. This opens up a panel where you can type the name of your bookmark. Once you're done naming your shiny new bookmark, hit ```Enter```. You should see a tiny yellow triangle next to your line. you're done!
 
 
-###Accessing Bookmarks###
+### Accessing Bookmarks ###
 Press ```ctrl + shift + P```  on Windows / Linux or ```cmd + shift + P``` on Mac and select ```SublimeBookmarks:Goto Bookmark```. This will bring up a list of all bookmarks. Type in the bookmark name you want to go to and press ```Enter``` to go to the bookmark 
 
 
-###Removing Bookmarks###
+### Removing Bookmarks ###
 Press ```ctrl + shift + P```  on Windows / Linux or ```cmd + shift + P``` on Mac and select ```Remove Bookmark```. Type the name of the bookmark you want to remove and press ```Enter```. This will remove the bookmark
 
 To remove _all_ bookmarks, select the option ```SublimeBookmarks:Remove All Bookmarks (Clear Bookmarks)```. This will clear _all bookmarks_. This _can not be undone_.  
 
 
 
-##Visibility Modes:##
+## Visibility Modes: ##
 
 SublimeBookmarks has 3 visibility modes associated with it.
 The default mode is option 2.
 
-###1) View all Bookmarks###
+### 1) View all Bookmarks ###
 
  This mode shows *all* bookmarks that have been created - irrespective of project or file information.
 
@@ -78,7 +78,7 @@ The default mode is option 2.
  This will show __all__ bookmarks created
 
 
-###2) View only Project Bookmarks###
+### 2) View only Project Bookmarks ###
 
  This mode only shows bookmarksthat belong to the *current project* - it will not show other bookmarks *at all*
 
@@ -86,7 +86,7 @@ The default mode is option 2.
 
 This will only show bookmarks that belong to the current project.
 
-###2) View only current file Bookmarks###
+### 2) View only current file Bookmarks ###
 
  This mode only shows bookmark that are present in the *current file*.
 
@@ -97,13 +97,13 @@ This will only show bookmarks that belong to the current file.
 Notes / Addendum
 ================
 
-###Some TODO Stuff:###
+### Some TODO Stuff: ###
 
 * <del>Port to Sublime Text 2 </del> (This is partially done. Unfortunately, I'm not able to implement live previews and project support. I don't really know how to port these to ST2. If someone does, please do contact me! )
 * <del>Add an option to only show bookmarks belonging to current project </del>   (Nope, it now fully supports project-based bookmark management!)
 
 
-###To Help###
+### To Help ###
 
 Just fork my repo and send a pull request. I'll gladly accept :)
 
